@@ -48,7 +48,7 @@
                     <td>" . $user['name'] . "</td>
                     <td>" . $user['email'] . "</td>
                     <td>" . $user['password'] . "</td>
-                    <td><a href='create.php?id=" . $user['id'] . "' class='btn btn-light btn-sm'>Show</a></td>
+                    <td><a href='show.php?id=" . $user['id'] . "' class='btn btn-light btn-sm'>Show</a></td>
                 </tr>";
             }
         ?>
