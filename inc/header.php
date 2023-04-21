@@ -18,3 +18,12 @@
 
 </head>
 <body>
+    <?php
+        include_once 'navbar.php';
+    ?>
+
+    <br><br>
+
+    <div class="container">
+
+    
