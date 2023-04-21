@@ -25,7 +25,7 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="assets/css/style.css" rel="stylesheet">
