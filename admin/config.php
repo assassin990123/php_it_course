@@ -1,3 +1,4 @@
 <?php
-    define('ROOT', '');
+    define('ROOT', '../../');
+    define('BACKEND_ROOT', '');
 ?>

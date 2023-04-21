@@ -8,7 +8,7 @@ body {
   height: 100%;
 }
 
-:root {
+:BACKEND_ROOT {
   --primary: #06a3da;
   --secondary: #34ad54;
   --light: #eef9ff;

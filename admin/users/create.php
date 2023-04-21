@@ -3,7 +3,7 @@
     require_once 'config.php';
     
     // Include the header
-    include_once ROOT . 'inc/header.php';
+    include_once BACKEND_ROOT . 'inc/header.php';
 ?>
 
 <!-- Display a form for adding a new user -->

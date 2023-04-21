@@ -1,10 +1,11 @@
 <?php
-    include('config.php');
-    include ROOT . 'inc/header.php';
+    include 'config.php';
+    
+    include BACKEND_ROOT . 'inc/header.php';
 ?>
 
 
 
 <?php
-    include ROOT . 'inc/footer.php';
+    include BACKEND_ROOT . 'inc/footer.php';
 ?>

@@ -9,7 +9,7 @@
 					<a class="nav-link active" aria-current="page" href="#">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Users</a>
+					<a class="nav-link active" aria-current="page" href=<?php echo BACKEND_ROOT . "users/index.php"?>>Users</a>
 				</li>				
 				<li class="nav-item">
 					<a class="nav-link active" aria-current="page" href="#">Projects</a>

@@ -1,6 +1,6 @@
 <?php
     require_once 'config.php';
-    include_once ROOT . 'inc/header.php';
+    include_once BACKEND_ROOT . 'inc/header.php';
     
     $sql = "SELECT * FROM users";
     $result = $conn->query($sql);

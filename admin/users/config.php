@@ -1,4 +1,5 @@
 <?php
-    define('ROOT', '../');
-    require_once ROOT . 'config/db.php';
+    define('ROOT', '../../');
+    define('BACKEND_ROOT', '../');
+    require_once BACKEND_ROOT . 'config/db.php';
 ?>
