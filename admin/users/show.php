@@ -37,33 +37,32 @@
     </div>
 
     <div class="card-body">
-        <form action="update.php?id=<?php echo $id;?>" method="POST">
-            <!-- Name field -->
-            <div class="mb-3 mt-3">
-                <label for="email" class="form-label">Name:</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name"
-                    value=<?php echo $user['name']?>
-                >
+        <div class="container">
+            <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="<?php echo $user['name'];?>">
+                </div>
             </div>
-            <!-- Email field -->
-            <div class="mb-3 mt-3">
-                <label for="email" class="form-label">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"
-                    value=<?php echo $user['email']?>
-                >
-            </div>
-            <!-- Password field -->
-            <div class="mb-3">
-                <label for="pwd" class="form-label">Password:</label>
-                <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd"
-                    value=<?php echo $user['password']?>
-                >
+            <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="<?php echo $user['email'];?>">
+                </div>
             </div>
 
-            <!-- Back button -->
-            <a href="index.php" class="btn btn-info float-start">Back</a>
-            <!-- Udate button -->
-            <button type="submit" class="btn btn-primary float-end">Update User Data</button>
-        </form>
+            <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="<?php echo $user['password'];?>">
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- Back button -->
+        <a href="index.php" class="btn btn-info float-start">Back</a>
+        <!-- Edit button -->
+        <a href="edit.php?id=<?php echo $id;?>" class="btn btn-primary float-end">Edit User Data</a>
     </div>
  </div>
