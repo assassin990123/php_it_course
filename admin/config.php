@@ -1,3 +1,3 @@
 <?php
-    define('ROOT_DIR', '../');
+    define('ROOT', '');
 ?>

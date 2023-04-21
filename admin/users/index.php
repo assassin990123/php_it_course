@@ -1,6 +1,6 @@
 <?php
     require_once 'config.php';
-    include_once ROOT_DIR . 'inc/header.php';
+    include_once ROOT . 'inc/header.php';
     
     $sql = "SELECT * FROM users";
     $result = $conn->query($sql);
@@ -48,7 +48,7 @@
                     <td>" . $user['name'] . "</td>
                     <td>" . $user['email'] . "</td>
                     <td>" . $user['password'] . "</td>
-                    <td><a href='create.php' class='btn btn-light btn-sm'>Show</a></td>
+                    <td><a href='create.php?id=" . $user['id'] . "' class='btn btn-light btn-sm'>Show</a></td>
                 </tr>";
             }
         ?>

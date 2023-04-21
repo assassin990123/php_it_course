@@ -1,4 +1,4 @@
 <?php
-    define('ROOT_DIR', '../../');
-    require_once ROOT_DIR . 'config/db.php';
+    define('ROOT', '../');
+    require_once ROOT . 'config/db.php';
 ?>
